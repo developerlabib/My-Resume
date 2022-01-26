@@ -1,0 +1,157 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: #EEE;
+}
+.conteiner{
+    background-color: rgb(67, 223, 243);
+    padding: 30px;
+    width: 80%;
+    margin: 0% auto;
+}
+.profile-pic{
+    height: 120px;
+    width: 100px;
+    border: white solid 3px;
+    border-radius: 50%;
+    float: left;
+}
+.name{
+    float: left;
+    padding: 30px;
+}
+.contact-imformation{
+    float:right;
+    padding: 30px;
+}
+.contact-imformation p a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+}
+.contact-imformation p a:hover{
+    color: rgb(243, 52, 18);
+}
+.clear{
+    clear: both;
+}
+hr{
+    border: white solid 3px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+h1,h2,h3,h4,h5,h6{
+    color: black;
+    
+}
+h3:hover{
+    color: rgb(243, 52, 18);
+}
+.Personal-Imformation{
+    float: left;
+    width: 30%;
+}
+.address{
+    float: right;
+    width: 70%;
+
+}
+.address p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.address p a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight: normal;
+}
+.address-btn:hover{
+    color: rgb(243, 52, 18);
+}
+.all{
+    border: white solid 2px;
+    border-bottom: none;
+}
+.edu{
+    float: left;
+    width: 30%;
+}
+.edu-training{
+    width: 70%;
+    float: left;
+
+}
+.edu-institute{
+    float: left;
+    width: 50%;
+}
+.edu-institute p a{
+    text-decoration: none;
+    color: black;
+}
+.edu-institute p a:hover{
+    color: rgb(243, 52, 18);
+
+}
+.school{
+    float: left;
+    width: 50%;
+}
+.COMMUNICATION-SKILLS{
+    float: left;
+    width: 30%;
+}
+.skills{
+    float: left;
+    width: 70%;
+}
+.skills p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.training-skill{
+    width: 30%;
+    float: left;
+}
+.computer{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.training-skill-d{
+    float: left;
+    width: 70%;
+}
+.training-skill-d p span{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.bottom{
+    background-color: rgb(67, 223, 243);
+    text-align: center;
+   padding: 12px;
+
+}
+.bottom a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-weight: bolder;
+}
+.bottom a:hover{
+
+color: rgb(243, 52, 18);
+}
+.bottom p{
+    font-size: 10px;
+    font-weight: bold;
+    float: left;
+}
+
+
+
