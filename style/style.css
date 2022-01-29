@@ -134,26 +134,24 @@ h3:hover{
     font-weight: bold;
 }
 
-.bottom{
-    background-color: rgb(67, 223, 243);
-    text-align: center;
-   padding: 12px;
+.icon{
+  height: 60px;
+  width: 60px;
+  padding: 10px;
 
 }
-.bottom a{
-    text-decoration: none;
-    color: black;
-    padding: 10px;
-    font-weight: bolder;
+footer{
+  text-align: center;
 }
-.bottom a:hover{
-
-color: rgb(243, 52, 18);
+footer p{
+  float: left;
 }
-.bottom p{
-    font-size: 10px;
-    font-weight: bold;
-    float: left;
+footer p a{
+  text-decoration: none;
+  color: #000;
+}
+footer p a:hover{
+  color: #f33412;
 }
 
 
