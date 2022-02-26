@@ -1,147 +1,155 @@
-*{
-    margin: 0%;
-    padding: 0%;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    background-color: #EEE;
+body {
+  background-color: #eee;
+  font-family: 'Source Serif 4', sans-serif;
 }
-.conteiner{
-    background-color: rgb(67, 223, 243);
-    padding: 30px;
-    width: 80%;
-    margin: 0% auto;
+.conteiner {
+  background-color: #83f2de;
+  padding: 30px;
+  width: 80%;
+  margin: 0 auto;
 }
-.profile-pic{
-    height: 120px;
-    width: 100px;
-    border: white solid 3px;
-    border-radius: 50%;
-    float: left;
+.profile-pic {
+  height: 120px;
+  width: 100px;
+  border: white solid 3px;
+  border-radius: 50%;
+  float: left;
 }
-.name{
-    float: left;
-    padding: 30px;
+.name {
+  float: left;
+  padding: 30px;
 }
-.c-i-p{
-    font-weight: bolder;
+.c-i-p {
+  font-weight: bolder;
 }
-.contact-imformation{
-    float:right;
-    padding: 30px;
+.contact-imformation {
+  float: right;
+  padding: 30px;
 }
-.contact-imformation p a{
-    text-decoration: none;
-    font-size: 17px;
-    font-weight: bold;
-    color: black;
+.contact-imformation p a {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 700;
+  color: #000;
 }
-.contact-imformation p a:hover{
-    color: rgb(243, 52, 18);
+.contact-imformation p a:hover {
+  color: #f33412;
 }
-.clear{
-    clear: both;
+.clear {
+  clear: both;
 }
-hr{
-    border: white solid 3px;
-    border-bottom: none;
-    width: 100%;
-    margin: 20px auto;
+hr {
+  border: #fff solid 3px;
+  border-bottom: none;
+  width: 100%;
+  margin: 20px auto;
 }
-h1,h2,h3,h4,h5,h6{
-    color: black;
-    
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000;
 }
-h3:hover{
-    color: rgb(243, 52, 18);
+h3:hover {
+  color: #f33412;
 }
-.Personal-Imformation{
-    float: left;
-    width: 30%;
+.Personal-Imformation {
+  float: left;
+  width: 30%;
 }
-.address{
-    float: right;
-    width: 70%;
-
+.address {
+  float: right;
+  width: 70%;
 }
-.address p{
-    font-size: 20px;
-    font-weight: bold;
+.address p {
+  font-size: 20px;
+  font-weight: 700;
 }
-.address p a{
-    text-decoration: none;
-    font-size: 18px;
-    color: black;
-    font-weight: normal;
+.address p a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #000;
+  font-weight: 400;
 }
-.address-btn:hover{
-    color: rgb(243, 52, 18);
+.address-btn:hover {
+  color: #f33412;
 }
-.all{
-    border: white solid 2px;
-    border-bottom: none;
+.all {
+  border: #fff solid 2px;
+  border-bottom: none;
 }
-.edu{
-    float: left;
-    width: 30%;
+.edu {
+  float: left;
+  width: 30%;
 }
-.edu-training{
-    width: 70%;
-    float: left;
-
+.edu-training {
+  width: 70%;
+  float: left;
 }
-.edu-institute{
-    float: left;
-    width: 50%;
+.edu-institute {
+  float: left;
+  width: 50%;
 }
-.edu-institute p a{
-    text-decoration: none;
-    color: black;
+.edu-institute p a {
+  text-decoration: none;
+  color: #000;
 }
-.edu-institute p a:hover{
-    color: rgb(243, 52, 18);
-
+.edu-institute p a:hover {
+  color: #f33412;
 }
-.school{
-    float: left;
-    width: 50%;
+.school {
+  float: left;
+  width: 50%;
 }
-.COMMUNICATION-SKILLS{
-    float: left;
-    width: 30%;
+.COMMUNICATION-SKILLS {
+  float: left;
+  width: 30%;
 }
-.skills{
-    float: left;
-    width: 70%;
+.skills {
+  float: left;
+  width: 70%;
 }
-.skills p{
-    font-size: 18px;
-    font-weight: bold;
+.skills p {
+  font-size: 18px;
+  font-weight: 700;
 }
-.training-skill{
-    width: 30%;
-    float: left;
+.training-skill {
+  width: 30%;
+  float: left;
 }
-.computer{
-    font-size: 20px;
-    font-weight: bolder;
+.computer {
+  font-size: 20px;
+  font-weight: bolder;
 }
-.training-skill-d{
-    float: left;
-    width: 70%;
+.training-skill-d {
+  float: left;
+  width: 70%;
 }
-.training-skill-d p span{
-    font-size: 17px;
-    font-weight: bold;
+.training-skill-d p span {
+  font-size: 17px;
+  font-weight: 700;
 }
-
 .icon{
-  height: 60px;
-  width: 60px;
+  height: 30px;
+  width: 30px;
   padding: 10px;
 
 }
 footer{
   text-align: center;
+}
+footer img{
+  border-radius: 50%;
+}
+footer img:hover{
+  box-shadow: rgb(117, 116, 116) 2px 2px 2px 2px;
+
 }
 footer p{
   float: left;
@@ -152,6 +160,13 @@ footer p a{
 }
 footer p a:hover{
   color: #f33412;
+}
+.Certificate{
+  color: #000;
+  text-decoration: none;
+}
+.Certificate:hover{
+  color: #f33412 ;
 }
 
 
